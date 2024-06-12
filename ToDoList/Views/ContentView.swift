@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var viewModel = ContentViewViewModel()
+    
     var body: some View {
             LoginView()
     }
