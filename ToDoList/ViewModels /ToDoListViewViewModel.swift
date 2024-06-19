@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+/// ViewModel for list of items view
+/// Primary lap
+class ToDoListViewViewModel: ObservableObject{
+    init() {}  
+}
