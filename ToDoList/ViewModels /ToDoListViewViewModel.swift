@@ -10,5 +10,9 @@ import Foundation
 /// ViewModel for list of items view
 /// Primary lap
 class ToDoListViewViewModel: ObservableObject{
-    init() {}  
+    
+    @Published var showingNewItemView = false
+    
+    init() {}
 }
+ 
