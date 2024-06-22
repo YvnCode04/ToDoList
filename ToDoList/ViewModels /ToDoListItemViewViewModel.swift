@@ -11,5 +11,6 @@ import Foundation
 /// Viewmodel for single to do list view (each  row items list)
 class ToDoListItemViewViewModel: ObservableObject{
     init() {}
+    
 }
     
