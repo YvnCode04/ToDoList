@@ -41,7 +41,7 @@ class NewItemViewViewModel: ObservableObject{
             .document(uId)
             .collection("todos")
             .document(newId)
-            .setData(newItem.asDictionary())
+            .setData(newItem.asDictionary() )
         
         
     }
