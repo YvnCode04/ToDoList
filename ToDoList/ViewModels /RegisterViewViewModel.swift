@@ -56,5 +56,4 @@ class RegisterViewViewModel: ObservableObject {
         }
         return true
     }
- 
 }

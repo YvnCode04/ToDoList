@@ -42,8 +42,6 @@ class NewItemViewViewModel: ObservableObject{
             .collection("todos")
             .document(newId)
             .setData(newItem.asDictionary() )
-        
-        
     }
     var canSave: Bool {
         guard !title.trimmingCharacters(in: .whitespaces).isEmpty else {
