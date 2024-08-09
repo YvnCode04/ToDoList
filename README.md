@@ -1,4 +1,4 @@
-To Do List App 
+TO DO LIST APP 
 
 This is a SwiftUI app with a Firebase for the backend.
 This application is compose of Register page a Login page, a Profile page and a Home page. 
